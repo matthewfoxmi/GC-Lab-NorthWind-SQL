@@ -1,0 +1,47 @@
+--1
+--SELECT * FROM Customers;
+
+--2
+--SELECT DISTINCT Country FROM Customers;
+
+
+--3
+--SELECT * FROM Customers WHERE CustomerID LIKE 'BL%';
+
+--4
+--SELECT * FROM Orders WHERE OrderID <= 10347;
+
+--5
+--SELECT * FROM Customers WHERE PostalCode = '1010'
+--OR PostalCode = '3012'
+--OR PostalCode = '12209'
+--OR PostalCode = '05023';
+
+--6
+--SELECT * FROM Orders WHERE  ShipRegion <> 'NULL';
+
+--7
+--SELECT * FROM Customers ORDER BY Country, City;
+
+--8
+--INSERT INTO Customers VALUES ('JOSHC', 'Grand Circus', 'Josh Carolin', 'GC TA', '123 Fake St', 'Detroit', 'MI', '48067', 'USA', '(248) 555-5555', '(248) 555-5555');
+
+
+--9
+--UPDATE Orders SET ShipRegion = 'EuroZone' WHERE ShipCountry = 'France';
+
+--10
+--DELETE FROM Order_Details WHERE Quantity = 1;
+
+--11
+--SELECT * FROM Orders WHERE OrderID = '10290';
+
+--12
+--SELECT * FROM Orders
+--JOIN Customers ON Orders;
+
+--13
+--SELECT FirstName FROM Employees WHERE ReportsTo = NULL;
+
+--14
+--SELECT FirstName FROM Employees WHERE ReportsTo = 2;
